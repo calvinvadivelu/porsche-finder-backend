@@ -1,0 +1,1 @@
+export const formatPrices = (priceString:string): number => Number(priceString.replace(/[^0-9.-]+/g,""));
